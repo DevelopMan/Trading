@@ -54,7 +54,7 @@ namespace NinjaTrader.Indicator
 
             DrawTextFixed("BarInfo", info_str, TextPosition.BottomLeft);
 
-            Print(Bars.Count.ToString() + " / " + last_bar_painted.ToString());
+            //Print(Bars.Count.ToString() + " / " + last_bar_painted.ToString());
 
             DrawVerticalLine("V_Line", bars_ago, Color.Blue, DashStyle.Dash, 2);
 
